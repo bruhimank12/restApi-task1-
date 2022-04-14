@@ -24,6 +24,7 @@ public class ServerController {
 	private ServerRepository serverRepository;
 	
 	//to get the servers
+	//yes
 	@GetMapping("/servers")
 	public List<Server> getServers(){
 		return serverRepository.findAll();
