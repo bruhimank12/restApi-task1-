@@ -51,3 +51,5 @@ Request to get server with server name “server2” (ONLY ONE SV EXISTS):
 Request to get server with server name “server3” (MULTIPLE SV EXISTS):
 
 ![getByNameM](./images/getByNameM.png)
+
+ide-STS , apiTesting-Postman
