@@ -31,8 +31,8 @@ public class ServerController {
 	}
 	//get server by serverId
 	@GetMapping("/servers/{serverId}")
-	public Optional<Server> getServer(@PathVariable String serverId){
-		return serverRepository.findById(serverId);
+	public Optional<Server> getServer(@PathVariable Long serverId){
+		return serverRepository.findById(Long.toString(serverId));
 	}
 	
 	
@@ -53,8 +53,8 @@ public class ServerController {
 	
 	//delete a server
 	@DeleteMapping("/servers/{serverId}")
-	public void deleteServer(@PathVariable String serverId) {
-		serverRepository.deleteById(serverId);
+	public void deleteServer(@PathVariable Long serverId) {
+		serverRepository.deleteById(Long.toString(serverId));
 	}
 	
 }

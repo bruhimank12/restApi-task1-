@@ -6,14 +6,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection="server")
 public class Server {
 	@Id
-	private String serverId;
+	private Long serverId;
 	
 	private String serverName;
 	private int serverType;
-	public String getServerId() {
+	public Long getServerId() {
 		return serverId;
 	}
-	public void setServerId(String serverId) {
+	public void setServerId(Long serverId) {
 		this.serverId = serverId;
 	}
 	public String getServerName() {
