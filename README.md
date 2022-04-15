@@ -2,6 +2,7 @@
 ![task1](./images/image0.1.png)
 ![task1](./images/image0.2.png)
 
+## Get {all and byId}
 Get all servers when no parameter passed:
 
 ![getAllServers](./images/getAllServers.png)
@@ -17,3 +18,4 @@ Adding server with json encoded body:
 request to put
 
 ![ReqToPut](./images/ReqToPut.png)
+
